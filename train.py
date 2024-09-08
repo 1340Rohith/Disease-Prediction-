@@ -18,7 +18,7 @@ nltk.download('wordnet')
 nltk.download('omw-1.4')
 nltk.download('averaged_perceptron_tagger')
 
-df = pd.read_csv(r"C:\Users\rohit\Desktop\machine learning\Datasets\NLM.csv")
+df = pd.read_csv(r"NLM.csv")
 df.drop("Unnamed: 0",axis=1,inplace=True)
 x = df["text"]
 y = df["label"]
