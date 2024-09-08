@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import confusion_matrix
-nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 nltk.download('wordnet')
 nltk.download('omw-1.4')
