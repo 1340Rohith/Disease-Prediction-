@@ -16,7 +16,7 @@ nltk.download('punkt_tab')
 nltk.download('stopwords')
 nltk.download('wordnet')
 nltk.download('omw-1.4')
-nltk.download('averaged_perceptron_tagger')
+nltk.download('averaged_perceptron_tagger_eng')
 
 df = pd.read_csv(r"NLM.csv")
 df.drop("Unnamed: 0",axis=1,inplace=True)
