@@ -3,6 +3,7 @@ import streamlit as st
 import train
 import pyautogui
 _display = Display(os.environ['DISPLAY'])
+export DISPLAY=:0
 st.title("Disease Diagnosis")
 def refresh():
     pyautogui.hotkey("ctrl","F5")
