@@ -2,3 +2,4 @@ streamlit
 nltk
 torch
 scikit-learn
+pyautogui
