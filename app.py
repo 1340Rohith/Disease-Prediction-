@@ -30,8 +30,10 @@ logistic = train.lr.predict(Q)
 naive = train.mnb.predict(Q)
 submit_button = st.button(label="Submit", type = 'primary')
 if submit_button:
-    output = logistic
-    st.write(f"you have been diagnosed with {output}")
+    output1 = logistic
+    output2 = logistic
+    st.write(f"you have been diagnosed with {output1} (Logistic regression)")
+    st.write(f"you have been diagnosed with {output2} (Naive Bayes)")
 
 
 
