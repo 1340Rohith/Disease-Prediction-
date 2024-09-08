@@ -1,10 +1,10 @@
-import sys
-from unittest import mock
+
 import os
 import streamlit as st
 import train
 import pyautogui
-sys.modules["pyautogui"] = mock.MagicMock()
+pyautogui.moveTo(100, 200)
+pyautogui.moveTo(200, 300)
 st.title("Disease Diagnosis")
 def refresh():
     pyautogui.hotkey("ctrl","F5")
