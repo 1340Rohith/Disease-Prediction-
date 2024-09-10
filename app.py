@@ -1,4 +1,3 @@
-
 import os
 import streamlit as st
 import train
@@ -34,6 +33,3 @@ if submit_button:
     output2 = logistic
     st.write(f"you have been diagnosed with {output1} (Logistic regression)")
     st.write(f"you have been diagnosed with {output2} (Naive Bayes)")
-
-
-
